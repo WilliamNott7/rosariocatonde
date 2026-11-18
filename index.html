@@ -1,0 +1,536 @@
+
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rosário Catonde — Presença Digital de Elite</title>
+<meta name="description" content="Rosário Catonde — criação de portfólios digitais e presença online exclusiva para figuras de destaque, 100% sob medida e responsiva.">
+<meta name="keywords" content="Rosário Catonde, portfólio digital, presença digital de elite, portfólio premium Angola, identidade digital exclusiva, Portfy Angola">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Rosário Catonde">
+<meta name="theme-color" content="#060606">
+<link rel="canonical" href="https://rosariocatonde.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Rosário Catonde — Presença Digital de Elite">
+<meta property="og:image" content="https://rosariocatonde.vercel.app/perfil.jpg" />
+<meta property="og:description" content="Criação de portfólios digitais e presença online exclusiva para figuras de destaque — sofisticação, discrição e padrão internacional.">
+<meta property="og:url" content="https://rosariocatonde.vercel.app/">
+<meta property="og:locale" content="pt_PT">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rosário Catonde — Presença Digital de Elite">
+<meta name="twitter:description" content="Portfólios digitais e presença online exclusiva para figuras de destaque.">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"Rosário Catonde","url":"https://rosariocatonde.vercel.app/","description":"Criação de portfólios digitais e presença online exclusiva para figuras de destaque.","areaServed":"Angola","priceRange":"45000-480000 AOA"}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" crossorigin="anonymous" defer></script>
+<style>
+:root{
+  --bg:#070604; --surface:#131110; --surface2:#1a1714; --line:#2a2520;
+  --ink:#f6f1e6; --ink-dim:#a39a8a;
+  --gold:#d4a637; --gold-soft:#f3cd73;
+  --r:18px; color-scheme: dark;
+}
+*{box-sizing:border-box; margin:0; padding:0;}
+html{scroll-behavior:smooth; scroll-padding-top:env(safe-area-inset-top,0px);}
+body{background:
+  radial-gradient(circle at 15% 0%, rgba(212,166,55,.05), transparent 45%),
+  var(--bg); color:var(--ink); font-family:'Inter',sans-serif; line-height:1.65;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:calc(66px + env(safe-area-inset-bottom,0px)); overflow-x:hidden;}
+h1,h2,h3{font-family:'Playfair Display',serif; letter-spacing:-.01em;}
+.logo{font-family:'Space Grotesk',sans-serif;}
+section h2::after{content:""; display:block; width:60px; height:2px; background:linear-gradient(90deg,var(--gold),transparent); margin:16px auto 0;}
+.wrap:not(.center) h2::after{margin:16px 0 0;}
+a{color:inherit; text-decoration:none;}
+.wrap{max-width:1100px; margin:0 auto; padding:0 20px;}
+section{padding:96px 0;}
+@media(max-width:640px){section{padding:60px 0;} .wrap{padding:0 18px;}}
+
+header{position:sticky; top:env(safe-area-inset-top,0px); z-index:50; backdrop-filter:blur(14px); background:rgba(7,6,4,.82); border-bottom:1px solid var(--line);}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:51;background:rgba(7,6,4,.82);}
+nav.wrap{display:flex; align-items:center; justify-content:space-between; height:72px;}
+.logo{font-size:1.2rem; font-weight:700;}
+.logo em{color:var(--gold); font-style:normal;}
+.navlinks{display:flex; gap:26px; font-size:.9rem; color:var(--ink-dim); align-items:center;}
+.navlinks a:hover{color:var(--gold);}
+.btn{display:inline-block; padding:13px 26px; border-radius:100px; font-weight:600; font-size:.92rem; transition:transform .25s ease, box-shadow .25s ease; white-space:nowrap;}
+.btn-gold{background:linear-gradient(135deg,var(--gold-soft),var(--gold)); color:#070604;}
+.btn-gold:hover{transform:translateY(-2px); box-shadow:0 12px 28px rgba(212,166,55,.38);}
+.btn-ghost{border:1px solid var(--line); color:var(--ink);}
+.btn-ghost:hover{border-color:var(--gold); color:var(--gold); transform:translateY(-2px);}
+@media(max-width:780px){.navlinks a:not(.btn){display:none;} .hamburger{display:flex !important;}}
+.hamburger{display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; padding:6px;}
+.hamburger span{width:22px; height:2px; background:var(--gold); border-radius:2px;}
+.mobile-menu{display:none; flex-direction:column; border-top:1px solid var(--line); background:rgba(7,6,4,.98); backdrop-filter:blur(14px);}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{padding:16px 24px; border-bottom:1px solid var(--line); color:var(--ink-dim); font-size:.95rem;}
+.mobile-menu a:hover{color:var(--gold);}
+
+.reveal{opacity:0; transform:translateY(20px); transition:opacity .7s ease, transform .7s ease;}
+.reveal.in{opacity:1; transform:none;}
+
+.hero{padding:110px 0 64px; position:relative; overflow:hidden;}
+.glow{position:absolute; width:520px; height:520px; border-radius:50%; background:radial-gradient(circle,rgba(212,166,55,.18),transparent 70%); top:-180px; right:-150px; pointer-events:none; animation:float 9s ease-in-out infinite;}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(28px)}}
+.kicker{color:var(--gold); font-weight:600; font-size:.84rem; letter-spacing:.06em; text-transform:uppercase;}
+.hero h1{font-size:clamp(2.2rem,6.5vw,3.8rem); line-height:1.08; letter-spacing:-.02em; margin:18px 0 20px; max-width:720px;}
+.hero h1 em{font-style:normal; background:linear-gradient(135deg,var(--gold-soft),var(--gold)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+.hero p{color:var(--ink-dim); font-size:clamp(1rem,2.2vw,1.12rem); max-width:560px; margin-bottom:32px;}
+.herobtns{display:flex; gap:14px; flex-wrap:wrap;}
+
+.about-grid{display:grid; grid-template-columns:250px 1fr; gap:52px; align-items:start; margin-top:44px;}
+@media(max-width:780px){.about-grid{grid-template-columns:1fr; justify-items:center; text-align:center;}}
+.photo-wrap{width:250px; height:250px; flex-shrink:0;}
+.photo-frame{width:100%; height:100%; border-radius:var(--r); border:1px solid var(--gold); padding:8px; position:relative;}
+.photo-inner{width:100%; height:100%; border-radius:12px; background:linear-gradient(145deg,var(--surface2),#070604); display:flex; align-items:center; justify-content:center; overflow:hidden; position:relative;}
+.photo-inner img{width:100%; height:100%; object-fit:cover; display:block; position:absolute; inset:0;}
+.photo-inner .initials{font-family:'Space Grotesk'; font-size:3.1rem; color:var(--gold); opacity:.5;}
+.about-text p{color:var(--ink-dim); margin-bottom:14px; max-width:620px;}
+.about-text b{color:var(--ink);}
+.stat-row{display:flex; gap:40px; margin-top:30px; flex-wrap:wrap;}
+@media(max-width:780px){.stat-row{justify-content:center;}}
+.stat-row b{display:block; font-family:'Space Grotesk'; font-size:1.7rem; color:var(--gold);}
+.stat-row span{color:var(--ink-dim); font-size:.82rem;}
+
+.grid-auto{display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; margin-top:46px;}
+.card{border:1px solid var(--line); border-radius:var(--r); padding:30px 26px; background:var(--surface); transition:border-color .3s, transform .3s, box-shadow .3s;}
+.card:hover{border-color:var(--gold); transform:translateY(-6px); box-shadow:0 18px 40px rgba(0,0,0,.45);}
+.card .n{font-family:'Space Grotesk'; color:var(--gold); opacity:.5; font-size:1.2rem;}
+.card h3{margin:10px 0 8px; font-size:1.05rem;}
+.card p{color:var(--ink-dim); font-size:.9rem;}
+
+.carousel-wrap{position:relative; margin-top:46px; display:flex; align-items:center; gap:12px;}
+.carousel-track{display:flex; gap:22px; overflow-x:auto; scroll-snap-type:x mandatory; scroll-behavior:smooth; padding:10px 4px 22px; flex:1; -webkit-overflow-scrolling:touch; scrollbar-width:none;}
+.carousel-track::-webkit-scrollbar{display:none;}
+.work-card{scroll-snap-align:start; flex:0 0 265px; border:1px solid var(--line); border-radius:var(--r); background:var(--surface); overflow:hidden; position:relative; transition:transform .35s cubic-bezier(.2,.8,.2,1), border-color .35s, box-shadow .35s;}
+.work-card:hover{transform:translateY(-8px) scale(1.015); border-color:var(--gold); box-shadow:0 20px 44px rgba(0,0,0,.5);}
+.work-badge{position:absolute; top:14px; left:14px; z-index:2; background:var(--gold); color:#070604; font-size:.66rem; font-weight:700; padding:4px 11px; border-radius:100px; letter-spacing:.03em; text-transform:uppercase;}
+.work-photo{height:165px; background:linear-gradient(135deg,var(--surface2),#070604); display:flex; align-items:center; justify-content:center; border-bottom:1px solid var(--line); position:relative; overflow:hidden;}
+.work-photo img{width:100%; height:100%; object-fit:cover; display:block; position:absolute; inset:0;}
+.work-photo i{font-size:2.1rem; color:var(--gold); opacity:.55;}
+.work-info{padding:20px 20px 24px;}
+.work-cat{color:var(--gold); font-size:.7rem; font-weight:600; text-transform:uppercase; letter-spacing:.04em;}
+.work-info h3{margin:8px 0 14px; font-size:1.08rem;}
+.btn-sm{padding:9px 18px; font-size:.82rem;}
+.car-btn{width:42px; height:42px; border-radius:50%; border:1px solid var(--line); background:var(--surface); color:var(--ink); display:flex; align-items:center; justify-content:center; cursor:pointer; flex-shrink:0; transition:border-color .25s, color .25s, transform .25s;}
+.car-btn:hover{border-color:var(--gold); color:var(--gold); transform:scale(1.08);}
+@media(max-width:640px){.car-btn{display:none;}}
+.car-dots{display:flex; justify-content:center; gap:8px; margin-top:6px;}
+.car-dot{width:7px; height:7px; border-radius:50%; background:var(--line); transition:background .3s, width .3s;}
+.car-dot.active{background:var(--gold); width:22px; border-radius:4px;}
+
+.pricing-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:40px; margin-top:52px; align-items:stretch;}
+@media(max-width:900px){.pricing-grid{grid-template-columns:1fr; gap:48px; max-width:420px; margin-left:auto; margin-right:auto;}}
+.plan{border:1px solid var(--line); border-radius:var(--r); padding:32px 26px; background:var(--surface); display:flex; flex-direction:column; position:relative; box-shadow:0 18px 44px rgba(0,0,0,.4); transition:transform .4s cubic-bezier(.2,.8,.2,1), box-shadow .4s ease, border-color .4s ease; opacity:0; transform:translateY(26px); transition-property:transform,box-shadow,border-color,opacity;}
+.plan.in{opacity:1; transform:translateY(0);}
+.plan:nth-child(1){transition-delay:.05s;}
+.plan:nth-child(2){transition-delay:.2s;}
+.plan:nth-child(3){transition-delay:.35s;}
+.plan:hover{transform:translateY(-10px) scale(1.025) !important; box-shadow:0 30px 60px rgba(0,0,0,.55); border-color:var(--gold);}
+.plan.feat{border-color:var(--gold); background:linear-gradient(165deg,#201b10,var(--surface)); animation:glowPulse 3.5s ease-in-out infinite;}
+@keyframes glowPulse{0%,100%{box-shadow:0 20px 50px rgba(212,166,55,.18);}50%{box-shadow:0 20px 58px rgba(212,166,55,.4);}}
+.badge{position:absolute; top:-13px; right:22px; background:var(--gold); color:#070604; font-size:.72rem; font-weight:700; padding:5px 14px; border-radius:100px; animation:badgeBounce 2.4s ease-in-out infinite;}
+@keyframes badgeBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-3px);}}
+.plan .tag{color:var(--ink-dim); font-size:.86rem; margin-bottom:14px; min-height:40px;}
+.plan .price{font-family:'Space Grotesk'; font-size:2rem; margin-bottom:20px;}
+.plan .price small{font-size:.85rem; color:var(--ink-dim); font-family:'Inter';}
+.plan ul{list-style:none; flex:1; margin-bottom:24px;}
+.plan li{padding:9px 0; border-top:1px solid var(--line); color:var(--ink-dim); font-size:.89rem; padding-left:22px; position:relative;}
+.plan li:first-child{border-top:none;}
+.plan li::before{content:"✓"; position:absolute; left:0; color:var(--gold);}
+.plan .btn{width:100%; text-align:center;}
+.note{text-align:center; color:var(--ink-dim); font-size:.82rem; margin-top:30px;}
+.elite-teaser{margin-top:30px; border:1px dashed var(--gold); border-radius:var(--r); padding:26px 28px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:18px; background:linear-gradient(165deg,rgba(212,166,55,.08),transparent);}
+.elite-teaser b{display:block; font-family:'Playfair Display',serif; font-size:1.08rem;}
+.elite-teaser span{color:var(--ink-dim); font-size:.86rem;}
+
+.cta{text-align:center;}
+.cta h2{font-size:clamp(1.8rem,5vw,2.6rem); max-width:600px; margin:0 auto 16px;}
+.cta h2::after{margin:16px auto 0 !important;}
+.cta p{color:var(--ink-dim); max-width:500px; margin:0 auto 32px;}
+footer{border-top:1px solid var(--line); padding:40px 0; color:var(--ink-dim); font-size:.85rem; text-align:center;}
+
+.bottom-nav{position:fixed; left:0; right:0; bottom:0; z-index:60; display:flex; justify-content:space-around; align-items:center; background:rgba(10,9,7,.94); backdrop-filter:blur(16px); border-top:1px solid var(--line); padding:10px 6px calc(8px + env(safe-area-inset-bottom,0px));}
+.bottom-nav a{display:flex; flex-direction:column; align-items:center; gap:4px; color:var(--ink-dim); font-size:.65rem; flex:1; transition:color .2s;}
+.bottom-nav a i{font-size:1.05rem;}
+.bottom-nav a:hover{color:var(--gold);}
+
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){ --bg:#070604; --surface:#131110; --surface2:#1a1714; --line:#2a2520; --ink:#f6f1e6; --ink-dim:#a39a8a; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap" aria-label="Navegação principal">
+    <div class="logo">Rosário <em>Catonde</em></div>
+    <div class="navlinks">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#projetos">Trabalho</a>
+      <a href="#precos">Preços</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#projetos">Trabalho</a>
+    <a href="#precos">Preços</a>
+    <a href="#contacto">Contacto</a>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="hero">
+  <div class="glow"></div>
+  <div class="wrap">
+    <div class="kicker reveal">Presença Digital de Elite</div>
+    <h1 class="reveal">Construímos <em>presenças digitais</em> à altura do seu nome</h1>
+    <p class="reveal">Sou Rosário Catonde. Crio portfólios digitais, sites institucionais e identidade online exclusiva para quem exige sofisticação, discrição e padrão internacional.</p>
+    <div class="herobtns reveal">
+      <a href="#precos" class="btn btn-gold">Ver Pacotes</a>
+      <a href="#projetos" class="btn btn-ghost">Ver Trabalho</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="sobre">
+  <div class="wrap about-grid">
+    <div class="photo-wrap reveal">
+      <div class="photo-frame">
+        <div class="photo-inner">
+          <img src="perfil.jpg" alt="Rosário Catonde" loading="lazy" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="initials" style="display:none; position:absolute; inset:0; align-items:center; justify-content:center;">RC</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-text">
+      <div class="kicker reveal">Perfil</div>
+      <h2 class="reveal" style="margin:10px 0 16px;">Sobre mim</h2>
+      <p class="reveal">Dedico-me à construção de presenças digitais exclusivas — portfólios, sites e identidade online para criadores, artistas, empresários e figuras públicas de diferentes países e setores.</p>
+      <p class="reveal">Combino <b>design premium</b>, <b>discrição</b> e <b>estratégia digital</b> para transformar a sua presença online num ativo que gera confiança e abre portas.</p>
+      <div class="stat-row reveal">
+        <div><b>100%</b><span>Discrição & Exclusividade</span></div>
+        <div><b>48h</b><span>Entrega Padrão</span></div>
+        <div><b>2+</b><span>Produtos Próprios</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="servicos">
+  <div class="wrap">
+    <div class="kicker reveal">Serviços</div>
+    <h2 class="reveal" style="margin-top:10px;">O que posso construir para ti</h2>
+    <div class="grid-auto">
+      <div class="card reveal"><div class="n">01</div><h3>Portfólios Digitais</h3><p>Perfil profissional completo para criadores, artistas e empreendedores.</p></div>
+      <div class="card reveal"><div class="n">02</div><h3>Sites Institucionais</h3><p>Presença online sólida para negócios e marcas pessoais.</p></div>
+      <div class="card reveal"><div class="n">03</div><h3>Landing Pages</h3><p>Páginas de vendas focadas em conversão, rápidas e responsivas.</p></div>
+      <div class="card reveal"><div class="n">04</div><h3>Identidade Digital</h3><p>Design visual coerente, da bio às redes sociais.</p></div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="projetos">
+  <div class="wrap">
+    <div class="kicker reveal">Trabalho Recente</div>
+    <h2 class="reveal" style="margin-top:10px;">Padrão de qualidade aplicado</h2>
+    <p class="reveal" style="color:var(--ink-dim); margin-top:8px;">Design 100% personalizado, animações próprias e responsividade total em cada projeto.</p>
+    <div class="carousel-wrap reveal">
+      <button class="car-btn car-prev" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+      
+      <div class="carousel-track" id="workTrack">
+        
+        
+        <div class="work-card">
+          <div class="work-photo">
+            <img src="pr_1.jpg" alt="Francisco Tchipilica" loading="lazy" onerror="this.style.display='none';">
+            <i class="fa-solid fa-globe"></i>
+          </div>
+          <div class="work-info">
+            <span class="work-cat">Administrador Do Calumbo</span>
+            <h3>Francisco Tchipilica</h3>
+            <a href="https://franciscotchipilica.vercel.app/" target="_blank" class="btn btn-gold btn-sm">Saiba mais</a>
+          </div>
+        </div>
+        
+        
+        <div class="work-card">
+          <div class="work-photo">
+            <img src="pr_2.jpg" alt="Santa De Jesus" loading="lazy" onerror="this.style.display='none';">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <div class="work-info">
+            <span class="work-cat">Criadora de Conteúdos</span>
+            <h3>Santa De Jesus</h3>
+            <a href="https://santadejesus.vercel.app" class="btn btn-gold btn-sm">Saiba mais</a>
+          </div>
+        </div>
+        
+        
+        
+        <div class="work-card">
+          <span class="work-badge">Destaque</span>
+          <div class="work-photo">
+            <img src="pr_3.png" alt="TP FILMS" loading="lazy" onerror="this.style.display='none';">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <div class="work-info">
+            <span class="work-cat">Video Maker</span>
+            <h3>TP FILMS</h3>
+            <a href="https://tpfilms.vercel.app" class="btn btn-ghost btn-sm">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+      <button class="car-btn car-next" aria-label="Seguinte"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+    <div class="car-dots" id="carDots"></div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="precos">
+  <div class="wrap">
+    <div class="kicker reveal">Investimento</div>
+    <h2 class="reveal" style="margin-top:10px;">Pacotes</h2>
+    <p class="reveal" style="color:var(--ink-dim); margin-top:8px;">Escolhe o nível de presença digital que o teu momento pede.</p>
+    <div class="pricing-grid">
+      <div class="plan">
+        <div class="tag">Primeira presença online</div>
+        <h3>Spark</h3>
+        <div class="price">45.000 <small>Kz</small></div>
+        <ul>
+          <li>Portfólio de 1 página</li>
+          <li>Foto, bio e links de redes sociais</li>
+          <li>Área de Sobre</li>
+          <li>Botão direto para WhatsApp</li>
+          <li>Entrega em 48 horas</li>
+        </ul>
+        <a href="https://wa.me/244958923794?text=Ol%C3%A1%20Ros%C3%A1rio!%20Tenho%20interesse%20no%20pacote%20Spark%20(45.000%20Kz).%20Pode%20me%20dar%20mais%20detalhes%3F" target="_blank" class="btn btn-ghost">Escolher</a>
+      </div>
+      <div class="plan feat">
+        <div class="badge">Mais Escolhido</div>
+        <div class="tag">Nível influencer / criador</div>
+        <h3>Rise</h3>
+        <div class="price">185.000 <small>Kz</small></div>
+        <ul>
+          <li>Tudo do Spark +</li>
+          <li>Portfólio animado + transições suaves</li>
+          <li>Área de "Destaques" e "Vídeos"</li>
+          <li>Galeria de "Fotos"</li>
+          <li>Design com as tuas cores e identidade</li>
+          <li>1 revisão · entrega em 72h</li>
+        </ul>
+        <a href="https://wa.me/244958923794?text=Ol%C3%A1%20Ros%C3%A1rio!%20Tenho%20interesse%20no%20pacote%20Rise%20(185.000%20Kz).%20Pode%20me%20dar%20mais%20detalhes%3F" target="_blank" class="btn btn-gold">Escolher</a>
+      </div>
+      <div class="plan">
+        <div class="tag">Figuras públicas e marcas</div>
+        <h3>Icon</h3>
+        <div class="price">480.000 <small>Kz</small></div>
+        <ul>
+          <li>Tudo do Rise +</li>
+          <li>Design exclusivo e premium</li>
+          <li>Estratégia de posicionamento digital</li>
+          <li>Otimização para atrair marcas</li>
+          <li>SEO do próprio nome</li>
+          <li>Domínio próprio + e-mail profissional</li>
+          <li>2 revisões · entrega 48h prioritárias · 30 dias suporte</li>
+        </ul>
+        <a href="https://wa.me/244958923794?text=Ol%C3%A1%20Ros%C3%A1rio!%20Tenho%20interesse%20no%20pacote%20Icon%20(480.000%20Kz).%20Pode%20me%20dar%20mais%20detalhes%3F" target="_blank" class="btn btn-ghost">Escolher</a>
+      </div>
+    </div>
+    <p class="note">Pagamento via transferência ou depósito.</p>
+    <div class="elite-teaser reveal">
+      <div>
+        <b>Projetos de Alto Perfil</b>
+        <span>Governadores, artistas e instituições — serviço dedicado, sob consulta direta.</span>
+      </div>
+      <a href="https://wa.me/244958923794?text=Ol%C3%A1%20Ros%C3%A1rio!%20Represento%20um%20projeto%20de%20alto%20perfil%20e%20gostaria%20de%20discutir%20uma%20proposta%20personalizada." class="btn btn-ghost">Falar Diretamente</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="cta" id="contacto">
+  <div class="wrap">
+    <div class="kicker reveal">Contacto</div>
+    <h2 class="reveal" style="margin-top:10px;">Vamos construir o teu projeto</h2>
+    <p class="reveal">Disponibilidade reservada, atendimento direto e discrição garantida.</p>
+    <div class="herobtns reveal" style="justify-content:center;">
+      <a href="https://wa.me/244958923794?text=Ol%C3%A1%20Ros%C3%A1rio!%20Vi%20o%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20seus%20servi%C3%A7os." class="btn btn-gold">WhatsApp</a>
+      <a href="mailto:williamnott624@gmail.com" class="btn btn-ghost">E-mail</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>© 2026 Rosário Catonde - Todos os direitos reservados</footer>
+
+
+
+
+
+
+
+
+
+
+
+<nav class="bottom-nav" aria-label="Navegação inferior">
+  <a href="#sobre"><i class="fa-solid fa-user"></i>Sobre</a>
+  <a href="#servicos"><i class="fa-solid fa-briefcase"></i>Serviços</a>
+  <a href="#projetos"><i class="fa-solid fa-folder-open"></i>Trabalho</a>
+  <a href="#precos"><i class="fa-solid fa-tag"></i>Preços</a>
+  <a href="#contacto"><i class="fa-solid fa-paper-plane"></i>Contacto</a>
+</nav>
+
+
+
+
+
+
+
+
+<script>
+const io = new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in'); io.unobserve(e.target);}})},{threshold:.15});
+document.querySelectorAll('.reveal, .plan').forEach(el=>io.observe(el));
+
+const track = document.getElementById('workTrack');
+if(track){
+  const dotsWrap = document.getElementById('carDots');
+  const cards = track.querySelectorAll('.work-card');
+  cards.forEach((_,i)=>{const d=document.createElement('div'); d.className='car-dot'+(i===0?' active':''); dotsWrap.appendChild(d);});
+  const dots = dotsWrap.querySelectorAll('.car-dot');
+  function updateDots(){
+    const step = cards[0].offsetWidth + 22;
+    const idx = Math.round(track.scrollLeft / step);
+    dots.forEach((d,i)=>d.classList.toggle('active', i===idx));
+  }
+  track.addEventListener('scroll', ()=>{ clearTimeout(track._t); track._t=setTimeout(updateDots,80); });
+  document.querySelector('.car-prev').addEventListener('click', ()=> track.scrollBy({left:-287, behavior:'smooth'}));
+  document.querySelector('.car-next').addEventListener('click', ()=> track.scrollBy({left:287, behavior:'smooth'}));
+
+  let autoplay = setInterval(advance, 3500);
+  function advance(){
+    const step = cards[0].offsetWidth + 22;
+    const maxScroll = track.scrollWidth - track.clientWidth;
+    if (track.scrollLeft >= maxScroll - 5) {
+      track.scrollTo({left:0, behavior:'smooth'});
+    } else {
+      track.scrollBy({left:step, behavior:'smooth'});
+    }
+  }
+  function pauseAutoplay(){ clearInterval(autoplay); }
+  function resumeAutoplay(){ clearInterval(autoplay); autoplay = setInterval(advance, 3500); }
+  track.addEventListener('mouseenter', pauseAutoplay);
+  track.addEventListener('mouseleave', resumeAutoplay);
+  track.addEventListener('touchstart', pauseAutoplay, {passive:true});
+  track.addEventListener('touchend', ()=> setTimeout(resumeAutoplay, 2500));
+  document.querySelectorAll('.car-prev, .car-next').forEach(b=> b.addEventListener('click', ()=> { pauseAutoplay(); setTimeout(resumeAutoplay, 2500); }));
+}
+
+const hb = document.getElementById('hamburger');
+const mm = document.getElementById('mobileMenu');
+hb.addEventListener('click', ()=> mm.classList.toggle('open'));
+mm.querySelectorAll('a').forEach(a=> a.addEventListener('click', ()=> mm.classList.remove('open')));
+</script>
+</body>
+</html>
